@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LibreTrador
+GenericName=Traducteur hors-ligne
+Comment=Traducteur Anglais → Français hors-ligne
+Exec=/usr/bin/libretrador
+Icon=libretrador
+Terminal=false
+Categories=Office;Translation;Utility;
+Keywords=translation;translate;anglais;français;offline;hors-ligne;
+StartupNotify=true
+StartupWMClass=libretrador

@@ -1,0 +1,26 @@
+# Moteur de traduction — installé SANS ses dépendances déclarées
+# pour éviter stanza + spacy qui tirent PyTorch/CUDA (plusieurs Go inutiles).
+# Les dépendances runtime réellement nécessaires sont listées explicitement ci-dessous.
+# argostranslate doit être installé avec : pip install argostranslate --no-deps
+argostranslate==1.11.0
+
+# Dépendances runtime strictement nécessaires d'argostranslate
+ctranslate2>=4.0,<5          # moteur d'inférence CTranslate2 (CPU, ~40 Mo)
+sentencepiece>=0.2.0,<0.3    # tokenisation sous-mots
+sacremoses>=0.0.53,<0.2      # pré/post-traitement texte
+minisbd                      # détection de limites de phrases
+packaging                    # comparaison de versions
+
+# Interface graphique
+PyQt6>=6.5.0
+
+# Synthèse vocale (Piper TTS)
+piper-tts
+
+# Lecture de fichiers (optionnel — v1.1)
+python-docx>=1.1.0
+pypdf>=4.0.0
+
+# Synonymes WordNet (optionnel — v1.2)
+# Les données WordNet sont téléchargées une fois par setup.sh (nltk.download)
+nltk>=3.8

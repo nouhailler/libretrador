@@ -1,0 +1,25 @@
+#!/bin/bash
+set -e
+
+# Vérifier aplay (requis par Piper TTS pour la lecture audio)
+if ! command -v aplay &>/dev/null; then
+    echo "Installation de alsa-utils (requis pour la synthèse vocale Piper)…"
+    apt-get install -y alsa-utils || true
+fi
+
+# Installer les dépendances Python via pip si argostranslate manque
+if ! python3 -c "import argostranslate" 2>/dev/null; then
+    echo "Installation des dépendances Python (argostranslate, PyQt6…)…"
+    pip3 install --break-system-packages \
+        "argostranslate>=1.9.0" \
+        "python-docx>=1.1.0" \
+        "pypdf>=4.0.0" || true
+fi
+
+echo ""
+echo "LibreTrador installé. Lancez-le depuis le menu Applications ou via : libretrador"
+echo ""
+echo "Note : la synthèse vocale Piper TTS nécessite :"
+echo "  - Le binaire piper dans ~/.local/bin/piper"
+echo "  - Le modèle vocal dans ~/.local/share/piper-voices/fr_FR-upmc-medium.onnx"
+echo "  Voir : https://github.com/rhasspy/piper"

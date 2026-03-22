@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_install:
+	install -d $(CURDIR)/debian/libretrador/usr/lib/libretrador
+	cp -r main.py config.py core ui assets \
+	      $(CURDIR)/debian/libretrador/usr/lib/libretrador/
+
+	install -d $(CURDIR)/debian/libretrador/usr/bin
+	install -m 755 build/libretrador.sh \
+	              $(CURDIR)/debian/libretrador/usr/bin/libretrador
+
+	install -d $(CURDIR)/debian/libretrador/usr/share/applications
+	install -m 644 libretrador.desktop \
+	              $(CURDIR)/debian/libretrador/usr/share/applications/
+
+	install -d $(CURDIR)/debian/libretrador/usr/share/icons/hicolor/48x48/apps
+	install -m 644 assets/libretrador_48.png \
+	              $(CURDIR)/debian/libretrador/usr/share/icons/hicolor/48x48/apps/libretrador.png
+
+	install -d $(CURDIR)/debian/libretrador/usr/share/icons/hicolor/128x128/apps
+	install -m 644 assets/libretrador_128.png \
+	              $(CURDIR)/debian/libretrador/usr/share/icons/hicolor/128x128/apps/libretrador.png

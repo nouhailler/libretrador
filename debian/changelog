@@ -1,0 +1,6 @@
+libretrador (0.1.0-1) unstable; urgency=low
+
+  * Version initiale — MVP : traduction texte EN→FR, historique SQLite,
+    copier/effacer, compteur de caractères, TTS espeak-ng, tray icon.
+
+ -- LibreTrador <contact@libretrador.org>  Sun, 22 Mar 2026 00:00:00 +0000

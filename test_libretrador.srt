@@ -1,0 +1,73 @@
+1
+00:00:01,000 --> 00:00:03,500
+Hello and welcome to this video.
+
+2
+00:00:04,000 --> 00:00:07,200
+Today we are going to talk about artificial intelligence
+and how it is changing our world.
+
+3
+00:00:08,000 --> 00:00:11,000
+Artificial intelligence is not just a buzzword anymore.
+It has become a reality in our daily lives.
+
+4
+00:00:12,500 --> 00:00:15,000
+From voice assistants to self-driving cars,
+AI is everywhere around us.
+
+5
+00:00:16,000 --> 00:00:19,500
+But what exactly is artificial intelligence?
+Let me explain it in simple terms.
+
+6
+00:00:20,000 --> 00:00:23,000
+AI refers to the simulation of human intelligence
+by computer systems.
+
+7
+00:00:24,000 --> 00:00:27,500
+These systems can learn from experience,
+adjust to new inputs and perform human-like tasks.
+
+8
+00:00:28,500 --> 00:00:31,000
+The most important thing to understand
+is that AI is a tool, not a replacement for humans.
+
+9
+00:00:32,000 --> 00:00:35,500
+Individual builders and developers
+are now using AI to create amazing applications.
+
+10
+00:00:36,500 --> 00:00:39,000
+However, there are still many challenges to overcome,
+including bias, privacy and security concerns.
+
+11
+00:00:40,000 --> 00:00:43,500
+Every action taken by an AI system
+was locally correct but globally unpredictable.
+
+12
+00:00:44,500 --> 00:00:47,000
+The knowledge gap between what AI knows
+and what it doesn't know is still very large.
+
+13
+00:00:48,000 --> 00:00:51,500
+Machine learning, deep learning and neural networks
+are the core technologies behind modern AI.
+
+14
+00:00:52,500 --> 00:00:55,000
+In the next few years, we expect AI to transform
+healthcare, education and scientific research.
+
+15
+00:00:56,000 --> 00:01:00,000
+Thank you for watching. Don't forget to subscribe
+and leave a comment below with your thoughts on AI.

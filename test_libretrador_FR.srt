@@ -1,0 +1,73 @@
+1
+00:00:01,000 --> 00:00:03,500
+Bonjour et bienvenue dans cette vidéo.
+
+2
+00:00:04,000 --> 00:00:07,200
+Aujourd'hui, nous allons parler de l'intelligence artificielle
+et comment elle change notre monde.
+
+3
+00:00:08,000 --> 00:00:11,000
+L'intelligence artificielle n'est plus qu'un mot à la mode.
+Elle est devenue une réalité dans notre vie quotidienne.
+
+4
+00:00:12,500 --> 00:00:15,000
+Des assistants vocaux aux automobilistes,
+L'IA est partout autour de nous.
+
+5
+00:00:16,000 --> 00:00:19,500
+Mais qu'est-ce que l'intelligence artificielle ?
+Permettez-moi de l'expliquer en termes simples.
+
+6
+00:00:20,000 --> 00:00:23,000
+L'IA fait référence à la simulation de l'intelligence humaine
+par les systèmes informatiques.
+
+7
+00:00:24,000 --> 00:00:27,500
+Ces systèmes peuvent apprendre de l'expérience,
+s'adapter aux nouvelles entrées et effectuer des tâches de type humain.
+
+8
+00:00:28,500 --> 00:00:31,000
+La chose la plus importante à comprendre
+est que l'IA est un outil, pas un remplacement pour les humains.
+
+9
+00:00:32,000 --> 00:00:35,500
+Constructeurs et développeurs individuels
+sont maintenant en utilisant l'IA pour créer des applications étonnantes.
+
+10
+00:00:36,500 --> 00:00:39,000
+Toutefois, de nombreux défis restent à surmonter,
+y compris les préjugés, la protection des renseignements personnels et les préoccupations en matière de sécurité.
+
+11
+00:00:40,000 --> 00:00:43,500
+Chaque action d'un système d'IA
+a été localement correcte mais mondialement imprévisible.
+
+12
+00:00:44,500 --> 00:00:47,000
+L'écart de connaissance entre ce que l'IA sait
+et ce qu'il ne sait pas est encore très grand.
+
+13
+00:00:48,000 --> 00:00:51,500
+Apprentissage automatique, apprentissage profond et réseaux neuronaux
+sont les technologies de base derrière l'IA moderne.
+
+14
+00:00:52,500 --> 00:00:55,000
+Dans les prochaines années, nous nous attendons à ce que l'IA se transforme
+santé, éducation et recherche scientifique.
+
+15
+00:00:56,000 --> 00:01:00,000
+Merci d'avoir regardé. N'oubliez pas de vous abonner
+et laissez un commentaire ci-dessous avec vos pensées sur l'IA.

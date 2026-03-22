@@ -1,0 +1,20 @@
+Source: libretrador
+Section: utils
+Priority: optional
+Maintainer: LibreTrador <contact@libretrador.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+
+Package: libretrador
+Architecture: all
+Depends: ${misc:Depends},
+         python3 (>= 3.10),
+         python3-pyqt6,
+         espeak-ng,
+         python3-pip
+Description: Traducteur hors-ligne Anglais → Français
+ Interface graphique native Linux (PyQt6) pour traduire du texte
+ et des fichiers de l'anglais vers le français, entièrement hors-ligne.
+ .
+ Utilise Argos Translate comme moteur de traduction et espeak-ng
+ pour la synthèse vocale française.
